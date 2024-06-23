@@ -1,0 +1,223 @@
+.admin__content {
+    margin: 0 auto;
+    padding: 30px 100px;
+    max-width: 1230px;
+}
+
+.admin__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgba(131, 114, 96, 0.835);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.header__button-submit {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    padding: 5px;
+    width: 10%;
+    height: 30px;
+    border: solid 1px gray;
+    border-radius: 3px;
+    background: #f6f6f6;
+    color: grey;
+    cursor: pointer;
+}
+
+.admin__search-form{
+    margin-bottom: 25px;
+}
+
+.search-form__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form__item-input {
+    width: 275px;
+    padding: 10px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    appearance: none;
+    height: 40px;
+    font-size: 13px;
+}
+
+.search-form__item-select {
+    padding: 5px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    color: rgba(131, 114, 96, 0.835);
+    appearance: none;
+    height: 40px;
+}
+
+.search-form__button-submit{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: rgba(131, 114, 96, 0.835);
+    color: white;
+    appearance: none;
+    height: 40px;
+}
+
+.search-form__button-reset {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: rgba(230, 203, 175, 0.835);
+    color: white;
+    appearance: none;
+    height: 40px;
+}
+
+.navigation__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__button-export{
+    width: 125px;
+    padding: 5px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: rgba(205, 199, 193, 0.835);
+    color: rgba(131, 114, 96, 0.835);
+    appearance: none;
+    height: 35px;
+}
+
+.Table {
+    width: 100%;
+    border: solid 0.5px grey;
+}
+
+.Table-Head {
+    background-color: rgba(131, 114, 96, 0.835);
+}
+
+.Table-Head-Row{
+    text-align: center;
+}
+
+.Table-Head-Row-Cell {
+    color: white;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.Table-Body-Row {
+    text-align: center;
+    border-top: solid 0.5px grey;
+    border-bottom: solid 0.5px grey;
+}
+
+.Table-Body-Row-Cell {
+    color: rgba(131, 114, 96, 0.835);
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.detail {
+    padding: 0px 10px;
+    border: 1px solid #dad2d2;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    color: #dad2d2;
+    appearance: none;
+    height: 30px;
+}
+
+*:popover-open {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-width: 300px;
+}
+
+*::backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+}
+
+.main {
+    height: 1000px;
+}
+
+.open-button {
+    padding: 0.5rem 1rem;
+    border: solid #dad2d2 1px;
+    color: #dad2d2;
+}
+
+.close-button {
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-table__inner {
+    width: 100%;
+}
+
+.modal-table__header {
+    padding: 20px;
+    color: rgba(131, 114, 96, 0.835);
+    text-align: left;
+}
+
+.modal-table__text {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.modal-table__text p {
+    color: rgba(131, 114, 96, 0.835);
+    display: inline-block;
+    padding: 10px;
+}
+
+.modal-table__row:last-child .modal-table__header,
+.modal-table__row:last-child .modal-table__text {
+    border-bottom-width: 0;
+}
+
+.delete-form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.delete-form__button-submit {
+    padding: 10px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}

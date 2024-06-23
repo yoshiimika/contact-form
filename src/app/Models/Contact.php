@@ -9,9 +9,25 @@ class Contact extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'name',
+        'category_id',
+        'first_name',
+        'last_name',
+        'gender',
         'email',
-        'tel',
-        'content'
+        'tell1',
+        'tell2',
+        'tell3',
+        'address',
+        'building',
+        'detail',
     ];
+
+    public function getTitle(){
+        return $this->category->content;
+    }
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }

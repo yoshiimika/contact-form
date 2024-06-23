@@ -1,16 +1,22 @@
 .header {
-    background: #000;
+    background: white;
+    border-bottom: solid 1px rgb(234, 223, 223);
 }
 
 .header__inner {
+    text-align: center;
     margin: 0 auto;
     padding: 20px 15px;
     max-width: 1230px;
 }
 
 .header__logo {
-    color: #fff;
+    color: rgba(131, 114, 96, 0.835);
     text-decoration: none;
-    font-weight: bold;
     font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
 }
