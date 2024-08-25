@@ -30,6 +30,10 @@
 - laravel10.0
 - MySQL8.0
 
+## テーブル設計
+
+## ER図
+
 ## 環境構築
 ### Dockerビルド
 
@@ -50,6 +54,3 @@
 5.php artisan migrate
 
 6.php artisan db:seed
-
-## ER図
-
