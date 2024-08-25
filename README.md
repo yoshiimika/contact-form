@@ -1,4 +1,5 @@
 # お問い合わせフォーム
+<img width="1512" alt="スクリーンショット 2024-08-25 17 24 11" src="https://github.com/user-attachments/assets/6a7a1795-a706-4782-a4d8-4095a73d1d3d">
 
 ## 環境構築
 ### Dockerビルド
