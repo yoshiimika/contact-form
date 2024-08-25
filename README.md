@@ -1,7 +1,8 @@
 # お問い合わせフォーム　　
 お問い合わせフォームを作成しました。　　
-
+↓お問い合わせフォーム画面
 <img width="1512" alt="スクリーンショット 2024-08-25 17 24 11" src="https://github.com/user-attachments/assets/6a7a1795-a706-4782-a4d8-4095a73d1d3d">
+↓管理画面
 <img width="1512" alt="スクリーンショット 2024-08-25 17 29 34" src="https://github.com/user-attachments/assets/803ac152-8fd0-42e5-b505-9f75eb1c9f73">
 
 
@@ -34,7 +35,6 @@
 - MySQL8.0
 
 ## ER図
-![contact-form](https://github.com/yoshiimika/test_contact-form/assets/159163900/62e48198-1669-4f6b-8e6e-f0e50bd9ff64)
 
 
 ## URL
